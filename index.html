@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/grid.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/responsive.css">
+    <title>Day1</title>
+</head>
+<body>
+    <header id="header">
+        <img src="./assets/imgs/header/header__img.png" alt="" class="header__img">
+        <div class="container">
+            <div class="header__heading">
+                <a href="#" class="header__logo-link">
+                    <img src="./assets/imgs/header/header__logo.png" alt="" class="header__logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">
+                                Home
+                                <i class="fas fa-angle-down header__nav-icon"></i>
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#about" class="header__nav-link">About Us</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#services" class="header__nav-link">
+                                Services
+                                <i class="fas fa-angle-down header__nav-icon"></i>
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#blog" class="header__nav-link">Blog</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#contact" class="header__nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__cart">
+                    <img src="./assets/imgs/header/header__cart.png" alt="" class="header__cart-icon">
+                </div>
+                <div class="header__search">
+                    <img src="./assets/imgs/header/header__search.png" alt="" class="header__search-icon">
+                </div>
+                <label class="header__menu" for="check-open-menu">
+                    <img src="./assets/imgs/header/header__menu.png" alt="" class="header__menu-icon">
+                </label>
+
+                <input type="checkbox" name="" id="check-open-menu" hidden>
+                <ul class="header__menu-mobile-tablet">
+                    <label class="header__menu menu-mobile" for="check-open-menu">
+                        <img src="./assets/imgs/header/header__menu.png" alt="" class="header__menu-icon menu-icon-mobile">
+                    </label>
+
+                    <li class="header__menu-mobile-tablet__nav-item">
+                        <a href="#" class="header__menu-mobile-tablet__nav-link">
+                            Home
+                            <i class="fas fa-angle-down header__menu-mobile-tablet__nav-icon"></i>
+                        </a>
+                    </li>
+                    <li class="header__menu-mobile-tablet__nav-item">
+                        <a href="#about" class="header__menu-mobile-tablet__nav-link">About Us</a>
+                    </li>
+                    <li class="header__menu-mobile-tablet__nav-item">
+                        <a href="#services" class="header__menu-mobile-tablet__nav-link">
+                            Services
+                            <i class="fas fa-angle-down header__menu-mobile-tablet__nav-icon"></i>
+                        </a>
+                    </li>
+                    <li class="header__menu-mobile-tablet__nav-item">
+                        <a href="#blog" class="header__menu-mobile-tablet__nav-link">Blog</a>
+                    </li>
+                    <li class="header__menu-mobile-tablet__nav-item">
+                        <a href="#contact" class="header__menu-mobile-tablet__nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header__content">
+                <h1 class="header__content-heading">
+                    <span class="header__content-heading--bold">Create impressive</span> pages
+                        and attract <span class="header__content-heading--bold">more customers</span>
+                        
+                </h1>
+
+                <p class="header__content-desc">
+                    Start using our easy-to-use tools with multiple options to improve.
+                </p>
+                <a href="#" class="btn btn--large center-on-mobile">
+                    Purchase Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <section class="offer">
+            <div class="container offer__wrap">
+                <div class="section__content">
+                    <h2 class="section__content-heading">
+                        Multiple options to make  
+                    </h2>
+                    <h2 class="section__content-heading">
+                        Your Ideas come true
+                    </h2>
+                    <p class="section__content-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna vel dignissim. Integer tinci-dunt viverra est, non congue lorem.
+                    </p>
+                    <a href="#" class="btn btn--small center-on-mobile">
+                        Purchase Now
+                    </a>
+                </div>
+
+                <div class="offer__list">
+                    <img src="./assets/imgs/body/offer/offer__img1.png" alt="" class="offer__img1">
+                    <img src="./assets/imgs/body/offer/offer__img2.png" alt="" class="offer__img2 hide-on-tablet hide-on-mobile">
+                </div>
+            </div>
+        </section>
+
+        <section class="brand" id="about">
+            <div class="container brand-wrap">
+                <div class="brand__item brand__item--medium-size">
+                    <img src="./assets/imgs/body/brand/brand__icon2.png" alt="" class="brand__img">
+                </div>
+    
+                <div class="brand__list">
+                    <div class="brand__item brand__item--big-size">
+                        <img src="./assets/imgs/body/brand/brand__icon1.png" alt="" class="brand__img">
+                        <p>Responsive Ready</p>
+                    </div>
+                    <div class="brand__item brand__item--small-size">
+                        <img src="./assets/imgs/body/brand/brand__icon3.png" alt="" class="brand__img">
+                    </div>
+                </div>
+    
+                <div class="section__content section__content--no-position">
+                    <h2 class="section__content-heading">
+                        That your brand to 
+                    </h2>
+                    <h2 class="section__content-heading">
+                        The next level
+                    </h2>
+                    <p class="section__content-desc">
+                        Phasellus pulvinar iaculis nunc at placerat. Sed porta sollicitudin eros, vel sagittis turpis consequat nec.
+                    </p>
+                    <a href="#" class="btn btn--small center-on-tablet center-on-mobile">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portofolio" id="services">
+            <div class="container">
+                <div class="portofolio__content">
+                    <h2 class="portofolio__content--heading">
+                        See our marketing projects
+                    </h2>
+                    <p class="portofolio__content--desc">
+                        Integer eu metus at orci scelerisque rutrum. Vivamus condimentu ipsum vitae iaculis cursus, turpis nisl.
+                    </p>
+                </div>
+            </div>
+
+            <div class="portofolio__list">
+                <a class="portofolio__item">
+                    <img src="./assets/imgs/body/portofolio/portafolio__img1.png" alt="" class="portofolio__img">
+                </a>
+                <a class="portofolio__item">
+                    <img src="./assets/imgs/body/portofolio/portofolio__img2.png" alt="" class="portofolio__img">
+                </a>
+                <a class="portofolio__item">
+                    <img src="./assets/imgs/body/portofolio/portafolio__img3.png" alt="" class="portofolio__img">
+                </a>
+            </div>
+
+            <img src="./assets/imgs/body/portofolio/portafolio__nav.png" alt="" class="portofolio__nav">
+        </section>
+
+        <section class="testimonial"></section>
+            <div class="container">
+                <div class="testimonial-wrap">
+                    <img src="./assets/imgs/body/testimonial/testimonial__img1.png" alt="" class="testimonial__img">
+
+                    <div class="testimonial__content">
+                        <img src="./assets/imgs/body/testimonial/testimonial__img2.png" alt="" class="testimonial__content-img">
+                        <p class="testimonial__content-desc">Rump spare ribs tail <b>pastrami ham hock tur-ducken</b> fatback salami. Ham hock pork belly, corned swine salami.</p>
+                        <p class="testimonial__content-auth">Avy Deluxer</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="partner">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="partner-wrap">
+                        <div class="col l-4 m-10 c-12">
+                            <div class="section__content section__content--no-position ml-0 ml-20-mobile">
+                                <h2 class="section__content-heading section__content--color-white">
+                                    Like them, for your
+                                </h2>
+                                <h2 class="section__content-heading section__content--color-white section__content-heading--min-width">
+                                    Company too
+                                </h2>
+                                <p class="section__content-desc section__content--color-white section__content-heading--min-width">
+                                    Phasellus pulvinar iaculis nunc at placerat. Sed porta sollicitudin eros, vel sagittis turpis consequat nec.
+                                </p>
+                                <a href="#" class="btn btn--small btn--partner center-on-tablet center-on-mobile">
+                                    Get Started
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col l-6 l-o-2 m-12 c-12">
+                            <div class="partner__list">
+                                <div class="row">
+                                    <div class="col l-6 m-3 c-6 partner__item">
+                                        <a href="" class="partner__link">
+                                            <img src="./assets/imgs/body/partner/partner__img1.png" alt="" class="partner__img">
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 m-3 c-6 partner__item">
+                                        <a href="" class="partner__link">
+                                            <img src="./assets/imgs/body/partner/partner__img2.png" alt="" class="partner__img">
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 m-3 c-6 partner__item">
+                                        <a href="" class="partner__link">
+                                            <img src="./assets/imgs/body/partner/partner__img3.png" alt="" class="partner__img">
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 m-3 c-6 partner__item">
+                                        <a href="" class="partner__link">
+                                            <img src="./assets/imgs/body/partner/partner__img4.png" alt="" class="partner__img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <div class="grid wide">
+                <div class="blog-wrap">
+                    <div class="blog-content">
+                        <h2 class="blog-content__heading">The latest updates to our Blog</h2>
+                        <p class="blog-content__desc">
+                            Integer eu metus at orci scelerisque rutrum. Vivamus condimentu ipsum vitae iaculis cursus, turpis nisl.
+                        </p>
+                    </div>
+
+                    <div class="row mb-50">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="blog__item-left">
+                                <img src="./assets/imgs/body/blog/blog__img1.png" alt="" class="blog__item-img">
+                                <div class="blog__item-left-content">
+                                    <h2 class="blog__item-heading">
+                                        Big Changes in technology is what's coming now
+                                    </h2>
+                                    <p class="blog__item-desc">
+                                        Turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-12 c-12">
+                            <div class="blog__item-right">
+                                <img src="./assets/imgs/body/blog/blog__img2.png" alt="" class="blog__item-img">
+                                <div class="blog__item-content">
+                                    <h2 class="blog__item-heading">
+                                        Big Changes in technology is what's coming now
+                                    </h2>
+                                    <p class="blog__item-time">2 mins ago</p>
+                                </div>
+                            </div>
+                            <div class="blog__item-right">
+                                <img src="./assets/imgs/body/blog/blog__img3.png" alt="" class="blog__item-img">
+                                <div class="blog__item-content">
+                                    <h2 class="blog__item-heading">
+                                        Big Changes in technology is what's coming now
+                                    </h2>
+                                    <p class="blog__item-time">2 mins ago</p>
+                                </div>
+                            </div>
+                            <div class="blog__item-right">
+                                <img src="./assets/imgs/body/blog/blog__img4.png" alt="" class="blog__item-img">
+                                <div class="blog__item-content">
+                                    <h2 class="blog__item-heading">
+                                        Big Changes in technology is what's coming now
+                                    </h2>
+                                    <p class="blog__item-time">2 mins ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn btn--small center">Get Started</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-wrap">
+                <div class="row">
+                    <div class="col l-6 l-o-3 m-12">
+                        <div class="contact__content">
+                            <h2 class="contact__content-heading">
+                                Contact us to Grow your Business
+                            </h2>
+                            <p class="contact__content-desc">
+                                Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum vitae iaculis cursus, turpis nisl ultricies massa.
+                            </p>
+                        </div>
+
+                        <input type="text" class="contact__input-user" placeholder="Antho_">
+                        <input type="email" class="contact__input-email" placeholder="E.g., a.octavian@gmail.com">
+                        <textarea name="" id="" cols="30" rows="3" class="contact__input-message" placeholder="Your message"></textarea>
+
+                        <div class="btn btn--large btn--primary-color center">Send Message</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="footer-wrap">
+                <div class="row">
+                    <div class="col l-4 m-8 c-12">
+                        <div class="footer__item">
+                            <img src="./assets/imgs/body/footer/footer__logo.png" alt="" class="footer__logo">
+
+                            <p class="footer__item-desc">
+                                Vivamus dapibus et purus quis mollis. Mauris tempus tortor vel mi eleifend laoreet. Nulla laoreet sapien erat.
+                            </p>
+
+                            <div class="footer__item-list-contact">
+                                <a href="#" class="footer__item-link">
+                                    <i class="fab fa-facebook-f footer__item-icon" ></i>
+                                </a>
+                                <a href="#" class="footer__item-link">
+                                    <i class="fab fa-twitter footer__item-icon"></i>
+                                </a>
+                                <a href="#" class="footer__item-link">
+                                    <i class="fab fa-instagram footer__item-icon"></i>
+                                </a>
+                                <a href="#" class="footer__item-link">
+                                    <i class="fab fa-dribbble footer__item-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-2 l-o-1 m-4 c-12">
+                        <div class="footer__item">
+                            <h3 class="footer__item-heading">
+                                Usefull Links
+                            </h3>
+                            <ul class="footer__item-list">
+                                <li class="footer__item-list-items">
+                                    <a href="#" class="footer__item-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="footer__item-list-items">
+                                    <a href="#" class="footer__item-link">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li class="footer__item-list-items">
+                                    <a href="#" class="footer__item-link">
+                                        Terms of Services
+                                    </a>
+                                </li>
+                                <li class="footer__item-list-items">
+                                    <a href="#" class="footer__item-link">
+                                        Plan & Precing
+                                    </a>
+                                </li>
+                                <li class="footer__item-list-items">
+                                    <a href="#" class="footer__item-link">
+                                        Site Map
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 l-o-1 m-12 c-12">
+                        <div class="footer__item">
+                            <h3 class="footer__item-heading">
+                                Contact Us
+                            </h3>
+                            <ul class="footer_item-list">
+                                <li class="footer__item-list-items mb-50">
+                                    <p class="footer__item-list-items-phone">
+                                        Phone Number: ( + 051 ) 958 23 78 51
+                                    </p>
+                                    <p class="footer__item-list-items-phone">
+                                        Phone Number 2: ( + 051 ) 958 23 78 51
+                                    </p>
+                                </li>
+                                <li class="footer__item-list-items mb-50">
+                                    <p class="footer__item-list-items-email">
+                                        Email: support@ocatavian.io
+                                    </p>
+                                    <p class="footer__item-list-items-email">
+                                        Fax: support@ocatavian.io
+                                    </p>
+                                </li>
+                                <li class="footer__item-list-items">
+                                    <p class="footer__item-list-items-address">
+                                        Address: Envato Pty Ltd 13/2 Permanent ST melbourne VLC 3000 - Australia
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__copyright">
+            <div class="grid wide">
+                <div class="footer__copyright-wrap">
+                    <div class="row">
+                        <p class="footer__copyright-lincense">
+                            Copyright © 2020 Octavian, Designed by TexTheme All Rights Reserved.
+                        </p>
+            
+                        <a class="footer__back-link" href="#">
+                            <img src="./assets/imgs/body/footer/footer__backtop.png" alt="" class="footer__back">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
